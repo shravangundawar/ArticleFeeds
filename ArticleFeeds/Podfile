@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ArticleFeeds' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ArticleFeeds
+
+    pod 'SwiftyJSON', '~> 4.0'
+    pod 'ACProgressHUD-Swift', '~> 1.4'
+
+  target 'ArticleFeedsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ArticleFeedsUITests' do
+    # Pods for testing
+  end
+
+end

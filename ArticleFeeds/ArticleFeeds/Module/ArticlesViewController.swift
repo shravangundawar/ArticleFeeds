@@ -13,6 +13,7 @@ class ArticlesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        ArticleViewModel.shared.getArticlesAPI()
     }
 }
 
@@ -32,7 +33,6 @@ extension ArticlesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 335
     }
-
        
-   }
+}
 
