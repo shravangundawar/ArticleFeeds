@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0842B41324C231670064A2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B41224C231670064A2A4 /* AppDelegate.swift */; };
 		0842B41524C231670064A2A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B41424C231670064A2A4 /* SceneDelegate.swift */; };
-		0842B41724C231670064A2A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B41624C231670064A2A4 /* ViewController.swift */; };
+		0842B41724C231670064A2A4 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B41624C231670064A2A4 /* ArticlesViewController.swift */; };
 		0842B41A24C231670064A2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0842B41824C231670064A2A4 /* Main.storyboard */; };
 		0842B41D24C231670064A2A4 /* ArticleFeeds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0842B41B24C231670064A2A4 /* ArticleFeeds.xcdatamodeld */; };
 		0842B41F24C2316B0064A2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0842B41E24C2316B0064A2A4 /* Assets.xcassets */; };
 		0842B42224C2316B0064A2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0842B42024C2316B0064A2A4 /* LaunchScreen.storyboard */; };
 		0842B42D24C2316B0064A2A4 /* ArticleFeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B42C24C2316B0064A2A4 /* ArticleFeedsTests.swift */; };
 		0842B43824C2316B0064A2A4 /* ArticleFeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B43724C2316B0064A2A4 /* ArticleFeedsUITests.swift */; };
+		0842B44724C23C550064A2A4 /* ArticlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0842B44624C23C550064A2A4 /* ArticlesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		0842B40F24C231670064A2A4 /* ArticleFeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleFeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0842B41224C231670064A2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0842B41424C231670064A2A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0842B41624C231670064A2A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0842B41624C231670064A2A4 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		0842B41924C231670064A2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0842B41C24C231670064A2A4 /* ArticleFeeds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArticleFeeds.xcdatamodel; sourceTree = "<group>"; };
 		0842B41E24C2316B0064A2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		0842B43324C2316B0064A2A4 /* ArticleFeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticleFeedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0842B43724C2316B0064A2A4 /* ArticleFeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFeedsUITests.swift; sourceTree = "<group>"; };
 		0842B43924C2316B0064A2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0842B44624C23C550064A2A4 /* ArticlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +105,10 @@
 			children = (
 				0842B41224C231670064A2A4 /* AppDelegate.swift */,
 				0842B41424C231670064A2A4 /* SceneDelegate.swift */,
-				0842B41624C231670064A2A4 /* ViewController.swift */,
-				0842B41824C231670064A2A4 /* Main.storyboard */,
-				0842B41E24C2316B0064A2A4 /* Assets.xcassets */,
 				0842B42024C2316B0064A2A4 /* LaunchScreen.storyboard */,
+				0842B41E24C2316B0064A2A4 /* Assets.xcassets */,
 				0842B42324C2316B0064A2A4 /* Info.plist */,
+				0842B44B24C2406B0064A2A4 /* Module */,
 				0842B41B24C231670064A2A4 /* ArticleFeeds.xcdatamodeld */,
 			);
 			path = ArticleFeeds;
@@ -129,6 +130,48 @@
 				0842B43924C2316B0064A2A4 /* Info.plist */,
 			);
 			path = ArticleFeedsUITests;
+			sourceTree = "<group>";
+		};
+		0842B44524C23C1A0064A2A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0842B44624C23C550064A2A4 /* ArticlesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0842B44824C23C7E0064A2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0842B44924C23C880064A2A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0842B44A24C23C9D0064A2A4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0842B41824C231670064A2A4 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0842B44B24C2406B0064A2A4 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0842B41624C231670064A2A4 /* ArticlesViewController.swift */,
+				0842B44524C23C1A0064A2A4 /* View */,
+				0842B44824C23C7E0064A2A4 /* Model */,
+				0842B44924C23C880064A2A4 /* ViewModel */,
+				0842B44A24C23C9D0064A2A4 /* Storyboard */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0842B44724C23C550064A2A4 /* ArticlesTableViewCell.swift in Sources */,
 				0842B41D24C231670064A2A4 /* ArticleFeeds.xcdatamodeld in Sources */,
-				0842B41724C231670064A2A4 /* ViewController.swift in Sources */,
+				0842B41724C231670064A2A4 /* ArticlesViewController.swift in Sources */,
 				0842B41324C231670064A2A4 /* AppDelegate.swift in Sources */,
 				0842B41524C231670064A2A4 /* SceneDelegate.swift in Sources */,
 			);
@@ -438,15 +482,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HM7FBSCTSY;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 83344Q8AJA;
 				INFOPLIST_FILE = ArticleFeeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm.ArticleFeeds;
+				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Extentia_Rower_Development_Profile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,15 +502,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HM7FBSCTSY;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 83344Q8AJA;
 				INFOPLIST_FILE = ArticleFeeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm.ArticleFeeds;
+				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Extentia_Rower_Development_Profile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -484,7 +532,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm.ArticleFeedsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsmTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,7 +554,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm.ArticleFeedsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsmTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -526,7 +574,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm.ArticleFeedsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsmUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,7 +594,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsm.ArticleFeedsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.extentia.tvsmUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
