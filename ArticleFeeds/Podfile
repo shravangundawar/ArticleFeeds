@@ -7,7 +7,7 @@ target 'ArticleFeeds' do
 
   # Pods for ArticleFeeds
 
-    pod 'SwiftyJSON', '~> 4.0'
+    pod 'LazyImage'
     pod 'ACProgressHUD-Swift', '~> 1.4'
 
   target 'ArticleFeedsTests' do

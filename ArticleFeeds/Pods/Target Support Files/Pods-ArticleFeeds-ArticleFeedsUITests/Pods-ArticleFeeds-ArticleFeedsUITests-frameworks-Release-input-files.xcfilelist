@@ -1,3 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-ArticleFeeds-ArticleFeedsUITests/Pods-ArticleFeeds-ArticleFeedsUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/ACProgressHUD-Swift/ACProgressHUD_Swift.framework
-${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/LazyImage/LazyImage.framework

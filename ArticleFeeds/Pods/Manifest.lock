@@ -1,20 +1,20 @@
 PODS:
   - ACProgressHUD-Swift (1.4)
-  - SwiftyJSON (4.3.0)
+  - LazyImage (7.0.1)
 
 DEPENDENCIES:
   - ACProgressHUD-Swift (~> 1.4)
-  - SwiftyJSON (~> 4.0)
+  - LazyImage
 
 SPEC REPOS:
   trunk:
     - ACProgressHUD-Swift
-    - SwiftyJSON
+    - LazyImage
 
 SPEC CHECKSUMS:
   ACProgressHUD-Swift: 52a40fe3377959cfe84316dc0cf523c5d790bbe8
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  LazyImage: 4db5288d8660b28e64e60c57f5b5d414af922160
 
-PODFILE CHECKSUM: 881ab163f093fc2c5129f29cc6867504bbf5f60d
+PODFILE CHECKSUM: f55b748b0838979cf04e33e91c7d36990c8662e3
 
 COCOAPODS: 1.9.3

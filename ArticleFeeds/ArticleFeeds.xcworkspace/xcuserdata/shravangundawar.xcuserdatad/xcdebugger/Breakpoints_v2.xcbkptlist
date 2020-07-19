@@ -7,112 +7,208 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "66E6F772-EBE9-44A6-96FC-36D6F3958211"
+            uuid = "F1C65390-23FF-4C13-9803-FBDCFFB536A4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ArticleFeeds/Module/SupportingFIles/NetworkManager.swift"
+            filePath = "ArticleFeeds/Module/ArticlesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "requestWithURL(urlString:completionHandler:)"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "scrollViewDidEndDragging(_:willDecelerate:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C8980419-45FF-419B-8E1A-CA42E160C3FC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArticleFeeds/Module/ViewModel/ArticleViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "getArticlesAPI(completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DA5A63AF-91D8-4126-AEB3-55B58F9F89A8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArticleFeeds/Module/View/ArticlesTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "awakeFromNib()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ED85839D-B592-4DCA-8913-43CABCFD36EE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ArticleFeeds/Module/View/ArticlesTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "cellSetup()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C163135C-DAA7-4305-88E4-D66C76C6F503"
+            uuid = "A28D4433-7107-4871-8DEC-84FAF393F472"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArticleFeeds/Module/ArticlesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "loadMoreArticle()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "92BA1A91-0B9F-4DFB-B51D-4241A949DE63"
-            shouldBeEnabled = "Yes"
+            uuid = "08A56C45-AACE-4607-A676-7430EC739354"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ArticleFeeds/Module/SupportingFIles/ArticleCommonMethods.swift"
+            filePath = "ArticleFeeds/Module/ArticlesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "getAbbriviatedFormsForCounts(val:)"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "scrollViewDidEndDragging(_:willDecelerate:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DF296D88-6F0C-4853-A97C-F1A9208CD760"
+            uuid = "6B97650D-8044-4459-A4F8-1E965CC4C8B8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ArticleFeeds/Module/SupportingFIles/ArticleCommonMethods.swift"
+            filePath = "ArticleFeeds/Module/ArticlesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "getAbbriviatedFormsForCounts(val:)"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "loadMoreArticle()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B97650D-8044-4459-A4F8-1E965CC4C8B8 - 20b4643f7e2b62a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArticleFeeds.ArticlesViewController.loadMoreArticle() -&gt; ()"
+                  moduleName = "ArticleFeeds"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shravangundawar/Documents/POC/Demo_App1/ArticleFeeds/ArticleFeeds/Module/ArticlesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "6B97650D-8044-4459-A4F8-1E965CC4C8B8 - cef2f17b4d6eec7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;ArticleFeeds.Article&gt;) -&gt; () in ArticleFeeds.ArticlesViewController.loadMoreArticle() -&gt; ()"
+                  moduleName = "ArticleFeeds"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shravangundawar/Documents/POC/Demo_App1/ArticleFeeds/ArticleFeeds/Module/ArticlesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B34FB273-6295-4625-AB51-40B4BD835403"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArticleFeeds/Module/ViewModel/ArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getArticlesAPI(pageStartLimit:pageEndLimit:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE3A92CB-075E-4A67-A8BB-7B75C37C9244"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArticleFeeds/Module/ViewModel/ArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getArticlesAPI(pageStartLimit:pageEndLimit:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE3A92CB-075E-4A67-A8BB-7B75C37C9244 - 32ac630b94cc771a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ArticleFeeds.ArticleViewModel.getArticlesAPI(pageStartLimit: Swift.String, pageEndLimit: Swift.String, completionHandler: (Swift.Array&lt;ArticleFeeds.Article&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ArticleFeeds"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shravangundawar/Documents/POC/Demo_App1/ArticleFeeds/ArticleFeeds/Module/ViewModel/ArticleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "BE3A92CB-075E-4A67-A8BB-7B75C37C9244 - 345204d9c7331389"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;ArticleFeeds.Article&gt;) -&gt; () in ArticleFeeds.ArticleViewModel.getArticlesAPI(pageStartLimit: Swift.String, pageEndLimit: Swift.String, completionHandler: (Swift.Array&lt;ArticleFeeds.Article&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ArticleFeeds"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shravangundawar/Documents/POC/Demo_App1/ArticleFeeds/ArticleFeeds/Module/ViewModel/ArticleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2C14DD9-5F72-4E74-821D-ADCA827EE984"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArticleFeeds/Module/ArticlesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "loadMoreArticle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "529325E2-6A33-4F88-9D90-9D5D03425E6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArticleFeeds/Module/ArticlesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "loadMoreArticle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31C90681-4126-4D97-874C-D2BE4AD5E263"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArticleFeeds/Module/ViewModel/ArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "setArticlesDataOnCell(tableCell:row:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -11,6 +11,8 @@ import UIKit
 
 class ArticleCommonMethods: NSObject {
     
+    //MARK: Methods
+
     class func changeUIImageViewShapeToCircle(imageVw: UIImageView, height: CGFloat, width: CGFloat) {
         
         imageVw.layer.cornerRadius = CGFloat(height/2)
@@ -42,4 +44,41 @@ class ArticleCommonMethods: NSObject {
             return String(describing: val)
         }
     }
+    
+    class func calculateDuration(miliSeconds:Int) -> String {
+        
+        let seconds = miliSeconds / 1000
+        guard seconds > 0 else {
+            return "00:00:00"
+        }
+        
+        let hours = seconds / 3600
+        let minute =  (seconds % 3600) / 60
+        let second = (seconds % 3600) % 60
+        
+        if hours < 24 {
+            let hoursString = String(format: "%02i", arguments: [hours])
+            let minuteString = String(format: "%02i", arguments: [minute])
+            let secondString = String(format: "%02i", arguments: [second])
+            return ("\(hoursString):\(minuteString):\(secondString)")
+        }
+        else if (hours / 24) < 30 {
+            return ("\((hours / 24)) days")
+        }
+        else if ((hours / 24) / 30) < 12 {
+            return ("\(((hours / 24) / 30)) months")
+        }
+        else {
+            return ("\(((hours / 24) / 30) / 12) years")
+        }
+    }
+    
+    class func stringToDate(dateString: String, dateFormat: String) -> Date?  {
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = dateFormat
+        let date: Date = (dateFormatter.date(from: dateString) ?? nil)!
+        return date
+    }
+    
 }
