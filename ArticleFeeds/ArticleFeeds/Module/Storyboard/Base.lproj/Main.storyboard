@@ -85,7 +85,7 @@
                                                     </constraints>
                                                 </stackView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30k Comments" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrL-hv-6fI">
-                                                    <rect key="frame" x="235" y="361.5" width="125" height="20"/>
+                                                    <rect key="frame" x="203" y="361.5" width="157" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="vB1-0V-MpM"/>
                                                     </constraints>
@@ -94,7 +94,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5k Likes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cr-Qh-W84">
-                                                    <rect key="frame" x="15" y="361.5" width="150" height="20"/>
+                                                    <rect key="frame" x="15" y="361.5" width="188" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="0br-rl-oyn"/>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="4xU-tf-zz8"/>
@@ -119,7 +119,7 @@
                                                 <constraint firstItem="mIl-8l-Fg6" firstAttribute="top" secondItem="AzW-Ug-xQ0" secondAttribute="top" constant="20" id="FjE-OZ-PNO"/>
                                                 <constraint firstItem="4cr-Qh-W84" firstAttribute="bottom" secondItem="ZrL-hv-6fI" secondAttribute="bottom" id="Itn-Ld-Kc2"/>
                                                 <constraint firstAttribute="trailing" secondItem="I6m-XP-e4P" secondAttribute="trailing" constant="15" id="Kuq-m3-uRE"/>
-                                                <constraint firstItem="ZrL-hv-6fI" firstAttribute="leading" secondItem="4cr-Qh-W84" secondAttribute="trailing" constant="70" id="KvY-aT-sL1"/>
+                                                <constraint firstItem="ZrL-hv-6fI" firstAttribute="leading" secondItem="4cr-Qh-W84" secondAttribute="trailing" id="KvY-aT-sL1"/>
                                                 <constraint firstItem="mIl-8l-Fg6" firstAttribute="leading" secondItem="AzW-Ug-xQ0" secondAttribute="leading" constant="15" id="Mqx-xb-AmP"/>
                                                 <constraint firstItem="NqX-S7-yug" firstAttribute="leading" secondItem="AzW-Ug-xQ0" secondAttribute="leading" id="Phg-x8-jbN"/>
                                                 <constraint firstItem="ZrL-hv-6fI" firstAttribute="trailing" secondItem="I6m-XP-e4P" secondAttribute="trailing" id="QCM-Yy-3uh"/>
