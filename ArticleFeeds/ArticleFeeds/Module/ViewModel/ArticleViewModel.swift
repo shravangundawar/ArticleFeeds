@@ -13,9 +13,13 @@ class ArticleViewModel: NSObject {
     
     static let shared = ArticleViewModel()
     
-    func getArticlesAPI() {
+    
+    func getArticlesAPI(completionHandler:@escaping (Array<Article>) -> Void) {
         ACProgressHUD.shared.showHUD()
-        NetworkManager.requestWithURL(urlString: apiEndpoint)
+        NetworkManager.requestWithURL(urlString: apiEndpoint) { (articleResponse) in
+            print(articleResponse)
+            completionHandler(articleResponse)
+        }
     }
     
 }

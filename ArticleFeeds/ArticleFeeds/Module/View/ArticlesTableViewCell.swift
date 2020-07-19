@@ -10,9 +10,26 @@ import UIKit
 
 class ArticlesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var userProfileImageView: UIImageView!
+    ///
+    @IBOutlet weak var userNameLabel: UILabel!
+    ///
+    @IBOutlet weak var userDesignationLabel: UILabel!
+    ///
+    @IBOutlet weak var durationLabel: UILabel!
+    ///
+    @IBOutlet weak var articleMediaImageView: UIImageView!
+    ///
+    @IBOutlet weak var articleDescriptionLabel: UILabel!
+    ///
+    @IBOutlet weak var articleLikesLabel: UILabel!
+    ///
+    @IBOutlet weak var articleCommentsLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        cellSetup()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -21,4 +38,8 @@ class ArticlesTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func cellSetup() {
+        ArticleCommonMethods.changeUIImageViewShapeToCircle(imageVw: userProfileImageView, height: userProfileImageView.frame.height, width: userProfileImageView.frame.width)
+    }
+    
 }

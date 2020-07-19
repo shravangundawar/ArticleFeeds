@@ -122,6 +122,16 @@
                                                 <constraint firstItem="GLG-Ze-zfn" firstAttribute="top" secondItem="mIl-8l-Fg6" secondAttribute="top" id="z3H-vJ-Ywf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="articleCommentsLabel" destination="ZrL-hv-6fI" id="1eq-X0-27y"/>
+                                            <outlet property="articleDescriptionLabel" destination="NbB-Z2-nHO" id="G8j-u3-BbH"/>
+                                            <outlet property="articleLikesLabel" destination="4cr-Qh-W84" id="2bS-Kv-Fod"/>
+                                            <outlet property="articleMediaImageView" destination="TNd-ME-LPx" id="Qr6-kH-zTZ"/>
+                                            <outlet property="durationLabel" destination="Kgm-8I-Wev" id="7cV-p9-Wy1"/>
+                                            <outlet property="userDesignationLabel" destination="LV4-3s-wJY" id="B85-uH-HQL"/>
+                                            <outlet property="userNameLabel" destination="e2i-Np-cHE" id="gHs-L2-GLM"/>
+                                            <outlet property="userProfileImageView" destination="mIl-8l-Fg6" id="Rvq-lo-mVl"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -140,6 +150,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Articles" id="Fc1-iP-cNN"/>
+                    <connections>
+                        <outlet property="articlesTableView" destination="MOS-il-hMm" id="mtN-AD-dmm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
